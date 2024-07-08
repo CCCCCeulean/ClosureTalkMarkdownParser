@@ -1,0 +1,276 @@
+.theme-dark {
+    --gray-1: #5C6370;
+    --gray-2: #abb2bf;
+    --red: #e06c75;
+    --red-1: #d05a63;
+    --orange: #d19a66;
+    --green: #b6e296;
+    --darkgreen: #399a58;
+    --aqua: #56b6c2;
+    --purple: #c678dd;
+    --blue: #9dcffc;
+    --darkblue: #4889df;
+    --yellow: #e4ba6c;
+    --light-yellow: #dfda91;
+    --momotalk-textcolor: #4C5B70;
+    
+    --embed-color: #5c67996c;
+    --search-result-file-title-color: #96b7e4;
+    --theme-color: #242b32;
+    --theme-color-translucent: #3187d388;
+    --theme-color-translucent-1: #1982dd2c;
+    --color-specification: #3ce252;
+
+    /* 背景首选色，使用在顶部菜单下沿 */
+    --background-primary: #3E4A5B;
+    --background-secondary: #202225;
+
+/*     --background-secondary-alt: #232323; */
+--background-secondary-alt: #464646;
+    --text-normal: var(--momotalk-textcolor);
+    --text-faint: #999999;
+    --inline-title: var(--momotalk-textcolor);
+    --text-title-h1: var(--purple);
+    --text-title-h2: #59aec2;
+    --text-title-h3: #52c1da;
+    --text-title-h4: var(--blue);
+    --text-title-h5: rgba(120, 203, 255, 0.783);
+    --text-title-h6: #bfbfbf;
+    --text-link: #99ff99;
+    --text-a: #d669bc;
+    --text-a-hover: #b3a14b;
+    --text-mark: rgb(252, 246, 1, 0.45);
+    /* SEE HIGHLIGHTER */
+    --pre-code: #272524d9;
+    --text-highlight-bg: #FF92A499;
+    
+    /* SEE HIGHLIGHTER */
+
+    --interactive-accent: #c678dd;
+    --interactive-before: #5e6565;
+
+    --background-modifier-border: #595959;
+    --blockquote-border: #9e8aff;
+    /* 加重符颜色，用于如超链接的场景 */
+    --text-accent: #59aec2;
+    --interactive-accent-rgb: #fe8019;
+    --text-selection: #164f92;
+    --text-on-accent: #2f3136;
+
+
+    --background-primary-alt : #FFFFFF;
+
+    --background-primary: #3E4A5B;
+    --background-primary-alt: #FFFFFF;
+
+    --opacity-translucency-light: 0.6;
+    --text-accent: #FF92A4;
+    --text-highlight-bg-active: #FF92A433;
+
+    /* --text-normal: rgb(205, 205, 205); */
+
+    --background-secondary-alt: #232323;
+    --tab-container-background: #F3F7F8;
+
+    /* 界面停息状态时顶部颜色 */
+    --tab-text-color-focused-active-current: var(--white);
+    /* --search-result-background: #fad6d6;  */
+    .suggestion-container{
+        color: white;
+    }
+    --nav-item-color-active: var(--momotalk-textcolor);
+    --nav-item-background-active: #ffc6d0ee;
+    --background-modifier-border-focus: #ffc6d0cc;
+    --nav-item-background-hover: #ffc6d088;
+}
+
+.workspace-leaf-content {
+    /* background-color:#F3F7F8FF; */
+    border: #164f92;
+
+}
+
+.canvas-path-label{
+    --background-primary :#F3F7F8
+}
+
+.nav-header {
+    background-color: #2D4C72;
+}
+
+.HyperMD-quote{
+    --blockquote-background-color: #00000044
+}
+
+.search-result-file-matches,
+.search-result-file-matched-text,
+.prompt-results,
+.prompt-input {
+    
+    color: #eeeeee;
+}
+
+
+.view-header-title ,
+.is-focused .workspace-leaf.mod-active .view-header-title,
+.workspace-tab-header-inner-title,
+.workspace-tab-header-container-inner {
+    color:white
+}
+
+.embedded-backlinks .tree-item-inner {
+    color:var(--momotalk-textcolor)
+}
+
+/* 
+    --background-secondary: #29313D;
+*/
+
+
+
+
+/* 上标题色 */
+.inline-title {
+    font-weight: normal;
+    color: var(--inline-title)
+}
+
+/* 选择正文的元素，比如<p>标签 */
+.body {
+    /* 设置文本居中对齐 */
+    /* 设置段间行距为0.25行，也就是0.25倍的字体大小 */
+    line-height: 1.35em;
+    .workspace-tab-container{
+        background: #F3F7F8;
+    }
+}
+
+.workspace-tab-header tappable is-active mod-active {
+    color:#FFF7E1
+}
+
+/*  */
+.markdown-preview-pusher {
+    line-height: 1.50em;
+}
+
+/* 设置文本的最大宽度为1000像素 */
+.markdown-preview-view,
+.markdown-source-view {
+    /* max-width: 1000px; */
+    /* background-color: rgba(62, 80, 113, 0.256); */
+    background-color: #FFF7E1;
+}
+
+.empty-state-title,
+.markdown-preview-view h1,
+.HyperMD-header-1 .cm-header-1,
+.cm-s-obsidian .cm-header-1 {
+    font-weight: normal;
+    color: var(--text-title-h1);
+}
+
+
+.empty-state-title,
+.markdown-preview-view h2,
+.HyperMD-header-2 .cm-header-2,
+.cm-s-obsidian .cm-header-2 {
+    font-weight: normal;
+    color: var(--text-title-h2)
+}
+
+.empty-state-title,
+.markdown-preview-view h3,
+.HyperMD-header-3 .cm-header-3,
+.cm-s-obsidian .cm-header-3 {
+    font-weight: normal;
+    color: var(--text-title-h3)
+}
+
+.empty-state-title,
+.markdown-preview-view h4,
+.HyperMD-header-4 .cm-header-4,
+.cm-s-obsidian .cm-header-4 {
+    font-weight: normal;
+    color: var(--text-title-h4)
+}
+
+.empty-state-title,
+.markdown-preview-view h5,
+.HyperMD-header-5 .cm-header-5,
+.cm-s-obsidian .cm-header-5 {
+    font-weight: normal;
+    color: var(--text-title-h5)
+}
+
+.empty-state-title,
+.markdown-preview-view h6,
+.HyperMD-header-6 .cm-header-6,
+.cm-s-obsidian .cm-header-6 {
+    font-weight: normal;
+    color: var(--text-title-h6)
+}
+
+.cm-hashtag {
+    font-size: 0.9em;
+}
+
+.multi-select-pill{
+    --pill-color: #FF92A499;
+    --pill-background: #FF92A433;
+}
+
+.cm-active,
+.cm-line,
+.metadata-properties-heading,
+.metadata-properties-title,
+.multi-select-pill-content,
+.cm-line {
+    color: var(--momotalk-textcolor);
+    /* 详细地设置一般高光 */
+    .cm-highlight {
+        /* see --text-highlight-bg */
+         padding: 2px 4px;  /* 可选：为高亮文本添加内边距，以突出显示 */
+        border-radius: 7px; /* 可选：为高亮文本添加圆角 */
+    }
+}
+
+
+.cMenuToolbarModalBar {
+    .top {
+        background: aliceblue;
+    }
+
+    ;
+}
+
+.background-secondary {
+    color: #29313D;
+}
+
+.workspace-leaf{
+    background-color: #F3F7F8;
+}
+
+
+#cMenuToolbarModalBar {
+    background:#bdcee7;
+}
+
+.canvas-background{
+    background: #F3F7F8;
+}
+
+.workspace-drawer-vault-name{
+    color: #EEEEEE;
+}
+
+
+
+/* 
+{
+
+}
+
+
+*/

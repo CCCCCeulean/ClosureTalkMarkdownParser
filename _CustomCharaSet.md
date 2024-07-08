@@ -1,0 +1,46 @@
+
+>[!info] ClosureTalk 
+- ==ba-Shiroko== | ==Shiroko==
+	- Shiroko
+	- 白子
+- ==ba-Toki== | ==CH0187==
+	- 飞马鸟时
+	- 这两位都会使用 ClosureTalk 默认风格的头像+背景模式。
+	- 要小心 id 和 Img，建议先下一份 json 做完自己的常用表
+- ==ba-Toki== | ==NP0079==
+	- absToki
+	- 阿比舒
+- toki | 季
+	- 请读取 pictures 里的 toki.jpeg 
+	- 不然她就会以黑色头像出现在 ClosureTalk 里
+- 时
+	- ![[toki.jpeg|100]]
+	- 假如你已经读取了 pictures，那么 "时" 也会使用这个摆烂 toki 的图片
+- 季
+	- ![](https://i1.hdslb.com/bfs/archive/e3d8fb938413d6bd60466dfde348baf22f0289a6.jpg@672w_378h_1c_!web-search-common-cover.avif) 
+	- 这个季将会使用 [【中文字幕/角色PV】飞鸟马 时_手机游戏热门视频 (bilibili.com)](https://www.bilibili.com/video/BV1pj411V7kw/) 的标题图，不知道能用多久
+- Himari 
+	- ![[himari.gif|100]]
+	- ClosureTalk 甚至支持 gif 令人感叹
+	- *但你该怎么让别人看到呢？ 另外，现在这句话不会被 CharaParser 捕获*
+- ==ba-Yuuka== | ==Yuuka==
+	- Yuuka
+- ==ba-Fuuka== | ==Fuuka==
+	- Fuuka
+- ==ba-Mika== | ==Mika==
+	- Mika
+- Ichika | 一花
+	- ![](https://cdnimg.gamekee.com/wiki2.0/images/w_276/h_276/829/43637/2022/7/11/531217.png)
+- ==ba-Haruka== | ==Haruka==
+	- Haruka
+- ==ba-Nodoka== | ==Nodoka==
+	- Nodoka
+- ba-Umika | 海香
+	- Umika
+	- ![|225](https://cdnimg.gamekee.com/wiki2.0/images/w_550/h_550/829/43637/2023/5/7/300195.png) 
+- ==ba-Erika== | ==Erika==
+	- Erika
+- ==ba-Momoka== | ==Momoka==
+	- Momoka
+- Konoka | 心华
+	- 木乃香 
